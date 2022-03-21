@@ -1,0 +1,24 @@
+{
+  "name": "culturecat-creators-api",
+  "version": "1.0.0",
+  "description": "Sample code on Culture Cat's API for uploading events using REST",
+  "scripts": {
+    "validate": "node src/send.js validate",
+    "upsert": "node src/send.js upsert",
+    "replace": "node src/send.js replace"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CultureCat/culturecat-creators-api.git"
+  },
+  "author": "Culture Cat",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/CultureCat/culturecat-creators-api/issues"
+  },
+  "homepage": "https://github.com/CultureCat/culturecat-creators-api#readme",
+  "dependencies": {
+    "form-data": "^4.0.0",
+    "node-fetch": "^2.6.7"
+  }
+}

@@ -1,0 +1,61 @@
+[
+  {
+    "id": "someevent-1",
+    "name": "When QA Party Hard - Volume 1!",
+    "public": true,
+    "tags": ["party", "dance", "drinks"],
+    "description": "A few words about the event.\n\nPlain 😽 text.",
+    "location": {
+      "name": "Where it's happening",
+      "streetAddress": "The Street 123",
+      "zip": "1111",
+      "city": "København",
+      "country": "Danmark",
+      "gps": {
+        "latitude": 55.55555,
+        "longitude": 12.55555
+      }
+    },
+    "ticket_url": "https://google.com/?q=tickets",
+    "times": [
+      {
+        "start": "2022-09-02T19:30:00.000Z",
+        "end": "2022-09-02T20:30:00.000Z",
+        "time_id": "sometimeid-1"
+      },
+      {
+        "start": "2023-03-02T19:30:00.000Z",
+        "end": "2023-03-02T20:30:00.000Z",
+        "time_id": "sometimeid-2"
+      }
+    ],
+    "timezone": "Europe/Copenhagen"
+  },
+  {
+    "id": "someevent-2",
+    "name": "When QA Party Hard - Volume 2!",
+    "public": true,
+    "tags": ["party", "dance", "drinks"],
+    "description": "A few words about the event.\n\nPlain ✊ text.",
+    "location": {
+      "name": "Where it's happening",
+      "streetAddress": "The Street 123",
+      "zip": "1111",
+      "city": "København",
+      "country": "Danmark",
+      "gps": {
+        "latitude": 55.55555,
+        "longitude": 12.55555
+      }
+    },
+    "ticket_url": "https://google.com/?q=tickets",
+    "times": [
+      {
+        "start": "2023-04-02T19:30:00.000Z",
+        "end": "2023-04-02T21:30:00.000Z",
+        "time_id": "sometimeid-2"
+      }
+    ],
+    "timezone": "Europe/Copenhagen"
+  }
+]
